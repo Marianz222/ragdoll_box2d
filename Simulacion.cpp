@@ -302,6 +302,7 @@ void Simulacion::crearArticulaciones() {
 
 	//Se crean todas las articulaciones
 	articulaciones[0] = (b2DistanceJoint*)mundo->CreateJoint(&definicion_enlace_1);
+	articulaciones[1] = (b2DistanceJoint*)mundo->CreateJoint(&definicion_enlace_2);
 
 }
 
